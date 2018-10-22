@@ -19,7 +19,7 @@ public class Consumer4TopicExchange {
 
         ConnectionFactory connectionFactory = new ConnectionFactory() ;
 
-        connectionFactory.setHost("192.168.32.143");
+        connectionFactory.setHost("192.168.32.144");
         connectionFactory.setPort(5672);
         connectionFactory.setVirtualHost("/");
 

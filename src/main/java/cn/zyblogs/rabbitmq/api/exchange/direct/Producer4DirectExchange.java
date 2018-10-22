@@ -24,7 +24,7 @@ public class Producer4DirectExchange {
 
         // 创建一个ConnectionFactory进行配置
         ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("192.168.32.143");
+        connectionFactory.setHost("192.168.32.144");
         connectionFactory.setPort(5672);
         // 设置虚拟主机
         connectionFactory.setVirtualHost("/");
